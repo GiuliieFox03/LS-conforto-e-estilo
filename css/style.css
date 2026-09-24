@@ -20,3 +20,12 @@ header img {
     color: #B24A5E;
     cursor: pointer;
 }
+.menu-checkbox {
+    display: none;
+}
+nav {
+    display: none;
+}
+.menu-checkbox:checked ~ nav {
+    display: block;
+}
