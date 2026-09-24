@@ -6,14 +6,17 @@ body {
 }
 
 header{
-    text-align: center;
-    padding: 20px;
-    background-color: #F5E6D3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFF8EE;
 }
 header img {
-    width: 180px;
+    width: 100px;
 }
-header h2 {
-    color: #8A7D75;
-    font-weight: normal;
+.icone-menu {
+    font-size: 28px;
+    color: #B24A5E;
+    cursor: pointer;
 }
